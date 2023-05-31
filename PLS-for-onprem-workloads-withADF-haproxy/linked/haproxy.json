@@ -176,7 +176,7 @@
                                     "settings": {
                                         "commandToExecute": "[concat('./automate_haproxy.sh',' ',parameters('HA_ProxyBackEndIP'))]",
                                         "fileUris": [
-                                            "https://raw.githubusercontent.com/dmauser/Lab/master/PLS-for-onprem-workloads/linked/automate_haproxy.sh"
+                                            "https://raw.githubusercontent.com/RKrokson/Lab/master/PLS-for-onprem-workloads-withADF-haproxy/linked/automate_haproxy.sh"
                                         ]
                                     }
                                 }

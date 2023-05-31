@@ -10,4 +10,4 @@ service mysql restart
 sudo mysql -u root
 create database testdb;
 create user 'mysqluser'@'localhost' identified by 'password';
-grant all on testdb.* to 'mysqluser'@'%' identified by 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'mysqluser'@'%' identified by 'password';

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt-get update -y && apt-get upgrade -y && apt-get -y install mysql-server
+
 # find the line starting with bind-address in the file /etc/mysql/mysql.conf.d/mysqld.cnf and comment it out
 sed -i '/bind-address/s/^/#/g' /etc/mysql/mysql.conf.d/mysqld.cnf
 

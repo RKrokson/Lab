@@ -7,7 +7,7 @@
         },
         "commandToExecute": {
             "type": "string",
-            "defaultValue": "apt-get -y update && apt-get -y install mysql-client",
+            "defaultValue": "apt-get -y update && apt-get -y install mysql-server",
             "metadata": {
                 "description": "Optional in case you answer no for Lock Down Public IP, but required in case you selected yes. Please use curl ifconfig.io to get your Public IP address"
             }
